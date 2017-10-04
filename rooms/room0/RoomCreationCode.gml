@@ -1,1 +1,1 @@
-show_message("Create room:" + string(id));
+show_debug_message("Create room:" + string(id));
