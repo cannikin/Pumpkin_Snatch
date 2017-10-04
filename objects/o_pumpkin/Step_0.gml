@@ -1,11 +1,21 @@
 /// @description Growth & Movement
 
-growth_counter++;
+// if a pumpkin is being carried, nothing else is going on
+if being_carried {
+  x = o_player.x;
+  y = o_player.y - o_player.sprite_height * 2;
+} else {
+  growth_counter++;
 
-// if we haven't reached max size, and we've reached the next growth rate, grow
-if size < max_size && growth_counter == growth_interval {
-  size++;
-  growth_counter = 0;
+  if growth_counter == growth_interval { 
+  	if size < max_size {
+      // pumpkin is growing
+  	  growth_counter = 0;
+      image_index = size++;
+  	} else {
+      // pumpkin popped
+      instance_create_layer(x, y, popped_layer, o_pumpkin_popped);
+      instance_destroy();
+    }
+  }
 }
-
-image_index = size;

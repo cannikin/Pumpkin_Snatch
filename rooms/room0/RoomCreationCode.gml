@@ -1,0 +1,1 @@
+show_message("Create room:" + string(id));
