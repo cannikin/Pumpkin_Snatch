@@ -10,4 +10,9 @@ y_index = 0;
 // initialize with something so it's set as a 2d array
 move_grid[0,0] = [0, 0, noone];
 
-show_debug_message("Create room manager: " + string(id));
+// how fast a pumpkin grows
+pumpkin_growth_rate = 1;
+pumpkin_growth_interval = room_speed * pumpkin_growth_rate;
+
+// seconds to wait before a pumpkin starts growing
+max_pumpkin_start_delay = 2

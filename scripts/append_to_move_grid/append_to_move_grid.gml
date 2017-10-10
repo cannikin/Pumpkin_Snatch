@@ -1,8 +1,7 @@
-/// @description index_self(instance)
-/// @arg Instance 
+/// append_to_move_grid(instance)
+/// @arg instance : the instance to add to RoomManager's move_grid
 
 var instance = argument[0];
-
 
 // compare last y indexed value that was inserted to the y of this instance
 if o_room_manager.x_index > 0 {

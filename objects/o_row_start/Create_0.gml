@@ -1,3 +1,3 @@
-/// @description
+/// @description Initialize
 
-index_self(self);
+append_to_move_grid(self);

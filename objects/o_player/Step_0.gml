@@ -39,43 +39,54 @@ if any_key_pressed {
 }
 #endregion
 
-#region // movement animation
 
-// move player to new x position in increments
+#region // movement & animation
+
 if is_moving_x {
   if x < next_x {
     x += move_speed;
+    sprite_index = s_player_girl_walk_right;
   } else {
     x -= move_speed;
+    sprite_index = s_player_girl_walk_left;
   }
-} else {
-  // pick up a pumpkin
-  if key_pick {
-    if carrying == noone {
-      // are we next to a pumpkin?
-      var pumpkin = current_position[2];
-      if instance_exists(pumpkin) && object_get_name(pumpkin.object_index) == "o_pumpkin" {
-        // pick up pumpkin
-        pumpkin.being_carried = true;
-        carrying = pumpkin;
-      }
-    } else {
-      // are we next to a basket?
-      var basket = current_position[2];
-      if instance_exists(basket) && object_get_name(basket.object_index) == "o_basket" {
-        basket.dropped_pumpkin = carrying;
-        carrying = noone;
-      }
+} 
+
+if is_moving_y {
+  if y < next_y {
+    y += move_speed;
+    sprite_index = s_player_girl_walk_down;
+  } else {
+    y -= move_speed;
+    sprite_index = s_player_girl_walk_up;
+  }
+}
+
+if !is_moving_x && !is_moving_y {
+  sprite_index = s_player_girl_stand;
+}
+
+#endregion
+
+#region // picking up a pumpkin
+
+if !is_moving_x && key_pick {
+  if carrying == noone {
+    // are we next to a pumpkin?
+    var pumpkin = current_position[2];
+    if instance_exists(pumpkin) && object_get_name(pumpkin.object_index) == "o_pumpkin" {
+      // pick up pumpkin
+      pumpkin.being_carried = true;
+      carrying = pumpkin;
+    }
+  } else {
+    // are we next to a basket?
+    var basket = current_position[2];
+    if instance_exists(basket) && object_get_name(basket.object_index) == "o_basket" {
+      basket.dropped_pumpkin = carrying;
+      carrying = noone;
     }
   }
 }
 
-// move player to new y position in increments
-if is_moving_y {
-  if y < next_y {
-    y += move_speed;
-  } else {
-    y -= move_speed;
-  }
-}
 #endregion

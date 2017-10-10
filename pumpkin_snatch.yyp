@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "0bd8eb6b-ce1f-4e4f-b335-40dc198bcd2e",
+            "Value": {
+                "id": "6da1a959-ab0f-4f7b-8b03-76faf4f42c00",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_girl_walk_up\/s_player_girl_walk_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1577de05-81a8-4795-bbc8-2b70faeaf25f",
             "Value": {
                 "id": "a91068d5-5d47-4f88-ad7f-cedce8bdcb9a",
@@ -226,6 +245,25 @@
                 ],
                 "resourcePath": "rooms\/room0\/room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "52f5f6b1-e9f9-42f6-a883-37dcfb7af050",
+            "Value": {
+                "id": "3ec827af-e840-414c-bc5f-c14dec5c8ce8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_girl_walk_down\/s_player_girl_walk_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +533,25 @@
             }
         },
         {
+            "Key": "be42bfc6-afe2-42af-a152-95cf8a19089f",
+            "Value": {
+                "id": "38163861-5ec0-43c0-b0a0-4aa75b403a83",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_girl_stand\/s_player_girl_stand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0ba3775-53a9-4632-92aa-86c606b82ccc",
             "Value": {
                 "id": "7f9c180d-a9ee-405f-a48d-2f9391d65aed",
@@ -509,7 +566,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_player\/s_player.yy",
+                "resourcePath": "sprites\/s_player_girl_walk_right\/s_player_girl_walk_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -566,7 +623,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/index_self\/index_self.yy",
+                "resourcePath": "scripts\/append_to_move_grid\/append_to_move_grid.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -644,6 +701,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4efdb9c-dbd0-46a5-9699-acea150a0aac",
+            "Value": {
+                "id": "3edc1f08-756b-4714-bb4b-776b0ee9dad0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_player_girl_walk_left\/s_player_girl_walk_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
