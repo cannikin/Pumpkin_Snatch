@@ -1,5 +1,8 @@
 /// @description Movement
 
+
+#region // keyboard checks
+
 // check keyboard
 var key_left = keyboard_check_pressed(vk_left);
 var key_right = keyboard_check_pressed(vk_right);
@@ -34,6 +37,9 @@ if any_key_pressed {
   next_y = move_index[1];
   
 }
+#endregion
+
+#region // movement animation
 
 // move player to new x position in increments
 if is_moving_x {
@@ -50,8 +56,6 @@ if is_moving_x {
       var pumpkin = current_position[2];
       if instance_exists(pumpkin) && object_get_name(pumpkin.object_index) == "o_pumpkin" {
         // pick up pumpkin
-        pumpkin.x = x;
-        pumpkin.y = y - sprite_height * 2;
         pumpkin.being_carried = true;
         carrying = pumpkin;
       }
@@ -74,3 +78,4 @@ if is_moving_y {
     y -= move_speed;
   }
 }
+#endregion

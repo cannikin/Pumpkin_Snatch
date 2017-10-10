@@ -28,4 +28,4 @@ move_speed = 32;
 // the pumpkin being carried
 carrying = noone;
 
-show_debug_message("Create player; "+ string(id));
+// show_debug_message("Create player; "+ string(id));

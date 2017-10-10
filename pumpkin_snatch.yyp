@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "a52f79e1-ff9e-4e54-beb2-cdc83ca15088",
+            "Value": {
+                "id": "7cf56555-53fc-4b0e-b659-14185348915a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_row_start\/s_row_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b270fada-9281-4a15-878f-65c85f3aaaf6",
             "Value": {
                 "id": "da24e0fe-566a-4dfb-b5d7-437bac700e56",
@@ -533,6 +552,44 @@
             }
         },
         {
+            "Key": "d2aa59ad-ccda-4348-8db7-fa7496df90dc",
+            "Value": {
+                "id": "f26e327d-8548-4299-9e66-26e4927bc33d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/index_self\/index_self.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d4821da8-c6a9-4afe-a670-a1a8b6b6f313",
+            "Value": {
+                "id": "093c8683-6727-4e85-8ec3-ecb38dc0a0d3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_row_start\/o_row_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd0369ce-40a3-4d2a-9e64-5fa604c2df0c",
             "Value": {
                 "id": "e765cbab-f84d-4b2c-b964-4df4a7802733",
@@ -610,7 +667,7 @@
         }
     ],
     "script_order": [
-        
+        "d2aa59ad-ccda-4348-8db7-fa7496df90dc"
     ],
     "tutorial": ""
 }

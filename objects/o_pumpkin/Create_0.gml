@@ -1,5 +1,7 @@
 /// @description Initialize
 
+index_self(self);
+
 being_carried = false;
 size = 0;
 max_size = sprite_get_number(s_pumpkin) - 1;
@@ -17,5 +19,5 @@ popped_layer = layer_get_id("popped_pumpkins");
 // don't animate
 image_speed = 0;
 
-show_debug_message("Create pumpkin: " + string(id));
-show_message("start_wait: " + string(start_wait));
+// show_debug_message("Create pumpkin: " + string(id));
+// show_debug_message("start_wait: " + string(start_wait));
