@@ -1,6 +1,8 @@
 /// @description Initialize
 
-SCOREBOARD_Y = 10;
+display_set_gui_size(512, 384);
+
+SCOREBOARD_Y = 9;
 
 // window_set_size(1024, 768);
 // display_set_gui_size(384, 512);
