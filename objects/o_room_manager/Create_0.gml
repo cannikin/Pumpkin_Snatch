@@ -1,6 +1,12 @@
 /// @description Initialize
 
-window_set_size(1024, 768);
+SCOREBOARD_Y = 10;
+
+// window_set_size(1024, 768);
+// display_set_gui_size(384, 512);
+
+score = 0;
+lives = 3;
 
 // set up indexes for tracking where in the array the next insert should go
 // set to -1 so that the first time through index_self they get set to 0

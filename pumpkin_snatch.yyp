@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "19dbfc44-ac1f-455f-bd9c-5c4d75f24b45",
+            "Value": {
+                "id": "fd3aa41c-b1ab-42c4-b6ad-312c35565364",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_player_lives\/o_player_lives.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1eebbb18-33a2-488b-bac7-b7a3728b968c",
             "Value": {
                 "id": "706a43bf-184d-419a-bb7b-07744414cd17",
@@ -207,6 +226,25 @@
                 ],
                 "resourcePath": "views\/30594fff-2d48-43cb-99f6-ccc1c2687638.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35c42f8f-b24e-4ff1-baa1-2c633d4c081a",
+            "Value": {
+                "id": "56bc6a42-ddf0-4a65-8b95-f23a0a6df444",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_female_head\/s_female_head.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -704,6 +742,25 @@
             }
         },
         {
+            "Key": "e2eeba63-22db-4a01-aa22-8dc69091ea58",
+            "Value": {
+                "id": "34c2d680-1736-418f-8ff3-2b20888473d6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_score_background\/s_score_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e61c4704-e6a7-4837-918a-3edd6eb7903e",
             "Value": {
                 "id": "96e6f229-3869-4f5a-9159-3716d1d72a17",
@@ -757,6 +814,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_player_girl_walk_left\/s_player_girl_walk_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff21c257-ce43-4450-9a50-0dc7a617c61c",
+            "Value": {
+                "id": "5dc4aa3b-6e54-49b6-8d2f-1e7ac6bad96a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_grass\/s_grass.yy",
                 "resourceType": "GMSprite"
             }
         },
