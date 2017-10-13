@@ -3,7 +3,8 @@
 // if a pumpkin is being carried, nothing else is going on
 if being_carried {
   x = o_player.x;
-  y = o_player.y - o_player.sprite_height;
+  y = o_player.y - o_player.sprite_height + o_player.PUMPKIN_CARRY_OFFSET;
+  sprite_index = s_pumpkin_carry;
 } else {
 
   // wait a random interval before starting to grow
