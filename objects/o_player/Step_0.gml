@@ -45,25 +45,25 @@ if any_key_pressed {
 if is_moving_x {
   if x < next_x {
     x += move_speed;
-    sprite_index = s_player_girl_walk_right;
+    sprite_index = o_room_manager.sprite_walk_right;
   } else {
     x -= move_speed;
-    sprite_index = s_player_girl_walk_left;
+    sprite_index = o_room_manager.sprite_walk_left;
   }
 } 
 
 if is_moving_y {
   if y < next_y {
     y += move_speed;
-    sprite_index = s_player_girl_walk_down;
+    sprite_index = o_room_manager.sprite_walk_down;
   } else {
     y -= move_speed;
-    sprite_index = s_player_girl_walk_up;
+    sprite_index = o_room_manager.sprite_walk_up;
   }
 }
 
 if !is_moving_x && !is_moving_y {
-  sprite_index = s_player_girl_stand;
+  sprite_index = o_room_manager.sprite_stand;
 }
 
 #endregion
