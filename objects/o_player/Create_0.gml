@@ -16,7 +16,7 @@ next_x = start_index[0];
 next_y = start_index[1];
 
 // how many pixels to move per frame
-move_speed = 8;
+move_speed = 4;
 
 // the instance id of a pumpkin being carried
 carrying = noone;
