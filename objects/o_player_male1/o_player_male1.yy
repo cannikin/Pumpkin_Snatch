@@ -1,18 +1,18 @@
 {
-    "id": "c1cfc2e4-e44a-434f-981b-74dd7930f17b",
+    "id": "cd083f71-23fc-4b38-a443-bbbe03c91274",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_player_female1",
+    "name": "o_player_male1",
     "eventList": [
         {
-            "id": "1ead9947-fc87-4151-82f1-bd60f20b5447",
+            "id": "83245496-d391-431b-a902-a8ed8218f364",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c1cfc2e4-e44a-434f-981b-74dd7930f17b"
+            "m_owner": "cd083f71-23fc-4b38-a443-bbbe03c91274"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "931705a2-7e1c-4463-a0d0-ec48aac96026",
+    "spriteId": "c7dc0ff7-d08a-407a-a151-b7fcc1a0c059",
     "visible": true
 }

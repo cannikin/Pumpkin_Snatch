@@ -24,9 +24,3 @@ pumpkin_count = 0;
 
 // how long to wait until we go to the next room
 next_room_counter = 0;
-
-sprite_walk_left = s_female1_walk_left;
-sprite_walk_right = s_female1_walk_right;
-sprite_walk_up = s_female1_walk_up;
-sprite_walk_down = s_female1_walk_down;
-sprite_stand = s_female1_stand;

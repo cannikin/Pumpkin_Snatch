@@ -25,3 +25,6 @@ move_speed = 4;
 
 // the instance id of a pumpkin being carried
 carrying = noone;
+
+// start off our sprite
+sprite_index = get_player_sprite("stand");
