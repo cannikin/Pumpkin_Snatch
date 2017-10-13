@@ -1,7 +1,7 @@
 /// @description Initialize Game
 
-display_set_gui_size(512, 384);
-window_set_size(1024,768);
+display_set_gui_size(400, 240);
+window_set_size(800, 480);
 
 BLINK_RATE = room_speed * 1;
 

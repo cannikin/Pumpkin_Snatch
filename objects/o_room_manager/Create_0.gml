@@ -1,12 +1,11 @@
 /// @description Initialize
 
-display_set_gui_size(512, 384);
+// display_set_gui_size(512, 384);
 
 SCOREBOARD_Y = 9;
 NEXT_ROOM_WAIT = room_speed * 3;
 
 // set up indexes for tracking where in the array the next insert should go
-// set to -1 so that the first time through index_self they get set to 0
 x_index = 0;
 y_index = 0;
 
