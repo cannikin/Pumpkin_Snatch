@@ -28,3 +28,4 @@ carrying = noone;
 
 // start off our sprite
 sprite_index = get_player_sprite("stand");
+image_speed = 0.75;
