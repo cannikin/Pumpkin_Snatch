@@ -7,7 +7,10 @@ being_carried = false;
 size = 0;
 start_delay = floor(room_speed * random(o_room_manager.max_pumpkin_start_delay));
 
-// how long it takes to grow to the next size
+// keep track of how many frames we need to spend picking up the pumpkin
+pickup_counter = 0;
+
+// keep track of the interval between size steps
 growth_counter = 0;
 
 // don't animate automatically

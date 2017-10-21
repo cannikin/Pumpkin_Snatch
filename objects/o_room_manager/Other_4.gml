@@ -10,5 +10,3 @@ for (var i=0; i<array_height_2d(move_grid); i++) {
     }
   }
 }
-
-show_debug_message(string("HELLO WORLD"));

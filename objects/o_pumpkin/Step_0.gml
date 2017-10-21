@@ -2,9 +2,22 @@
 
 // if a pumpkin is being carried, nothing else is going on
 if being_carried {
+
+  // default y position is on top of the player's head
+  var new_y_offset = o_player.sprite_height + o_player.pumpkin_carry_offset;
+  
+  // if we're still animating the pickup, figure out the proper position
+  if pickup_counter < o_player.pickup_speed {
+    new_y_offset = round(new_y_offset / o_player.pickup_speed * pickup_counter);
+    pickup_counter++;
+  } else {
+    o_player.picking_up = false;
+  }
+  
   x = o_player.x;
-  y = o_player.y - o_player.sprite_height + o_player.PUMPKIN_CARRY_OFFSET;
+  y = o_player.y - new_y_offset;
   sprite_index = s_pumpkin_carry;
+  
 } else {
 
   // wait a random interval before starting to grow

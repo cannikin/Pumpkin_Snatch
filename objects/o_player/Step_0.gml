@@ -20,7 +20,7 @@ var current_position = o_room_manager.move_grid[y_index,x_index];
 if any_key_pressed {
 
   // only allow x movement if player is not currenly moving y
-  if !is_moving_y {
+  if !is_moving_y && !picking_up {
     x_index += key_right - key_left;
     x_index = clamp(x_index, 0, x_max_index);
   }
@@ -79,6 +79,7 @@ if !is_moving_x && key_pick {
       // pick up pumpkin
       pumpkin.being_carried = true;
       carrying = pumpkin;
+      picking_up = true;
     }
   } else {
     // are we next to a basket?
@@ -86,6 +87,7 @@ if !is_moving_x && key_pick {
     if instance_exists(basket) && object_get_name(basket.object_index) == "o_basket" {
       basket.dropped_pumpkin = carrying;
       carrying = noone;
+      picking_up = false;
     }
   }
 }

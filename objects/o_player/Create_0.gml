@@ -3,7 +3,16 @@
 // each sprite has a different place where there pumpkin looks good when being carried
 // offset here is from the top pixel of the sprite
 // positive numbers move the pumpkin down, negative move it up
-PUMPKIN_CARRY_OFFSET = 4;
+pumpkin_carry_offset = 0;
+
+// how many pixels to move per frame
+move_speed = 4;
+
+// how many pixels to move per frame when carrying
+carry_speed = 4;
+
+// how many frames it takes to pick up a pumpkin
+pickup_speed = 15;
 
 // where the player currently is in the move_grid
 x_index = 0;
@@ -20,11 +29,11 @@ start_index = o_room_manager.move_grid[0,0];
 next_x = start_index[0];
 next_y = start_index[1];
 
-// how many pixels to move per frame
-move_speed = 4;
-
 // the instance id of a pumpkin being carried
 carrying = noone;
+
+// whether we're currently in the animation of actually picking up the pumpkin
+picking_up = false;
 
 // start off our sprite
 sprite_index = get_player_sprite("stand");
