@@ -24,3 +24,6 @@ pumpkin_count = 0;
 
 // how long to wait until we go to the next room
 next_room_counter = 0;
+
+// layer to put the player on
+player_layer = layer_get_id("popped_pumpkins");

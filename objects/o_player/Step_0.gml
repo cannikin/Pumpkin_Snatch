@@ -15,6 +15,7 @@ var any_key_pressed = key_left || key_right || key_up || key_down || key_pick;
 var is_moving_x = x != next_x;
 var is_moving_y = y != next_y;
 var current_position = o_room_manager.move_grid[y_index,x_index];
+var is_carrying = carrying == noone;
 
 // only bother messing with all this if a key was actually pressed
 if any_key_pressed {
@@ -43,21 +44,29 @@ if any_key_pressed {
 #region // movement & animation
 
 if is_moving_x {
+  // if player is less than a whole number of pixels away from next_x, move them directly to next_x
+  var x_increment = is_carrying ? carry_speed : move_speed;
+  x_increment = min(x_increment, abs(next_x - x));
+  
   if x < next_x {
-    x += move_speed;
+    x += x_increment;
     sprite_index = get_player_sprite("walk_right");
   } else {
-    x -= move_speed;
+    x -= x_increment;
     sprite_index = get_player_sprite("walk_left");
   }
 } 
 
 if is_moving_y {
+  // if player is less than a whole number of pixels away from next_y, move them directly to next_y
+  var y_increment = is_carrying ? carry_speed : move_speed;
+  y_increment = min(y_increment, abs(next_y - y));
+  
   if y < next_y {
-    y += move_speed;
+    y += y_increment;
     sprite_index = get_player_sprite("walk_down");
   } else {
-    y -= move_speed;
+    y -= y_increment;
     sprite_index = get_player_sprite("walk_up");
   }
 }

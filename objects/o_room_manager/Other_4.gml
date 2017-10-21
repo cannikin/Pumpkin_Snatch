@@ -1,5 +1,6 @@
-/// @description Count pumpkins
+/// @description Count pumpkins & Player
 
+// count pumpkins so we know how may are on the page
 for (var i=0; i<array_height_2d(move_grid); i++) {
   for (var j=0; j<array_length_2d(move_grid, i); j++) {
     var space = move_grid[i,j];
@@ -10,3 +11,7 @@ for (var i=0; i<array_height_2d(move_grid); i++) {
     }
   }
 }
+
+// place the player in the room
+var first_position = move_grid[0,0]
+instance_create_layer(first_position[0], -40, player_layer, asset_get_index("o_player_" + global.player_prefix));
