@@ -8,3 +8,4 @@ pumpkin_carry_offset = -4;
 move_speed = 3;
 carry_speed = 5;
 pickup_speed = 25;
+name = "CAMERON";

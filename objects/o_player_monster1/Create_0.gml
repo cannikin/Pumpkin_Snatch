@@ -8,3 +8,4 @@ pumpkin_carry_offset = -4;
 move_speed = 2;
 carry_speed = 2;
 pickup_speed = 3;
+name = "FRANK";

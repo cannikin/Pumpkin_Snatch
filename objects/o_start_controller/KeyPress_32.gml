@@ -1,3 +1,3 @@
 /// @description Start game
 
-room_goto(r_level1);
+room_goto_next();

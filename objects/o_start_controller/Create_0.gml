@@ -12,6 +12,3 @@ lives = 3;
 // tracking how often to blink the start text
 blink_counter = 0;
 write_start_text = true;
-
-// assume chosen character
-global.player_prefix = "female3"

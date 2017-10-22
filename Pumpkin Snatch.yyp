@@ -115,6 +115,44 @@
             }
         },
         {
+            "Key": "0ec43b7b-042b-4655-a14b-3f6686f2594a",
+            "Value": {
+                "id": "d6661903-3590-4958-bc7d-583c2138bae2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_player_select\/r_player_select.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1107f93f-fceb-42b9-b1ad-e9a3081f6923",
+            "Value": {
+                "id": "385f20ed-a079-4a2f-8545-050819ebe32e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_player_select_controller\/o_player_select_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1577de05-81a8-4795-bbc8-2b70faeaf25f",
             "Value": {
                 "id": "a91068d5-5d47-4f88-ad7f-cedce8bdcb9a",
@@ -1195,6 +1233,25 @@
                 ],
                 "resourcePath": "sprites\/s_female3_walk_down\/s_female3_walk_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8991df8-f616-471e-b93e-03f80535c953",
+            "Value": {
+                "id": "316d769a-5c09-42e2-b7be-5544e57e7bc0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_splash\/r_splash.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
