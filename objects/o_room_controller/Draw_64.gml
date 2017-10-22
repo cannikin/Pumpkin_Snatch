@@ -11,5 +11,7 @@ draw_set_halign(fa_left);
 draw_text(lives_x, SCOREBOARD_Y, lives_text);
 
 // score
+var score_show = string_format(score, 7, 0);
+score_show = string_replace_all(score_show, " ", "0");
 draw_set_halign(fa_right);
-draw_text(room_width-10, SCOREBOARD_Y, string(score));
+draw_text(room_width-10, SCOREBOARD_Y, score_show);

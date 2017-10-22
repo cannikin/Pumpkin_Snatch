@@ -18,6 +18,7 @@ for (var i=0; i<array_length_1d(players); i++) {
   if player_selected_index == i {
     draw_set_colour(c_white);
     draw_rectangle(player.x - 54, player.y-25, player.x + 54, player.y + 63, true);
+    draw_rectangle(player.x - 56, player.y-27, player.x + 56, player.y + 65, true);
   }
   
   // outline

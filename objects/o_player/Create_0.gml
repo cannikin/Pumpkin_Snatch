@@ -22,7 +22,7 @@ sprite_index = get_player_sprite("stand");
 image_speed = 0.75;
 
 // whether or not we're currently in room
-in_room = instance_exists(o_room_manager);
+in_room = instance_exists(o_room_controller);
 
 if in_room {
   // where the player currently is in the move_grid
@@ -30,11 +30,11 @@ if in_room {
   y_index = 0;
 
   // the max position of x and y on the move_grid
-  x_max_index = array_length_2d(o_room_manager.move_grid, 0) - 1;
-  y_max_index = array_height_2d(o_room_manager.move_grid) - 1;
+  x_max_index = array_length_2d(o_room_controller.move_grid, 0) - 1;
+  y_max_index = array_height_2d(o_room_controller.move_grid) - 1;
 
   // what grid position the player should start at
-  start_index = o_room_manager.move_grid[0,0];
+  start_index = o_room_controller.move_grid[0,0];
 
   // where the player is moving next (for animation)
   next_x = start_index[0];

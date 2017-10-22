@@ -15,7 +15,7 @@ if in_room {
   // helpful variables that tell us if player is currently in motion
   var is_moving_x = x != next_x;
   var is_moving_y = y != next_y;
-  var current_position = o_room_manager.move_grid[y_index,x_index];
+  var current_position = o_room_controller.move_grid[y_index,x_index];
   var is_carrying = carrying == noone;
 
   // only bother messing with all this if a key was actually pressed
@@ -34,7 +34,7 @@ if in_room {
     }
 
     // get new index points from move_grid
-    var move_index = o_room_manager.move_grid[y_index,x_index];
+    var move_index = o_room_controller.move_grid[y_index,x_index];
     next_x = move_index[0];
     next_y = move_index[1];
   

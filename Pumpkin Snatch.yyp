@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "219b0e7d-3958-404b-ac73-15acdba0208a",
+            "Value": {
+                "id": "e0282cdd-ae8a-4756-9ccd-05e4fac2b080",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_tutorial_controller\/o_tutorial_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27d1210b-32eb-4e1d-8770-f73576e35796",
             "Value": {
                 "id": "81862255-4df4-432e-9d0a-dba5c202c390",
@@ -889,7 +908,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/o_room_manager\/o_room_manager.yy",
+                "resourcePath": "objects\/o_room_controller\/o_room_controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1708,6 +1727,25 @@
                 ],
                 "resourcePath": "fonts\/f_score\/f_score.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e94441d4-9919-4640-b46f-34fd2c382d44",
+            "Value": {
+                "id": "ebdcf383-3f79-404f-9078-63ed30a2f3f7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_tutorial\/r_tutorial.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
