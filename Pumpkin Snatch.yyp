@@ -457,6 +457,25 @@
             }
         },
         {
+            "Key": "386ff495-7e91-4355-a5ee-5a07f2cb578e",
+            "Value": {
+                "id": "f2fcff0c-ac09-48d2-84c7-a4ea3aef01a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_pumpkin_carry5\/s_pumpkin_carry5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3e635eec-a517-4645-bfe2-41890f826db5",
             "Value": {
                 "id": "8dbe3357-eb4e-4e94-91c4-cf19ba34cf15",
@@ -586,6 +605,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_male1_walk_left\/s_male1_walk_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f1422b7-7ad7-4bf5-8b07-02b2523b859d",
+            "Value": {
+                "id": "77107a61-43be-4b83-a78a-3b98131d0023",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_pumpkin5\/s_pumpkin5.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1727,6 +1765,25 @@
                 ],
                 "resourcePath": "fonts\/f_score\/f_score.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e65c38f6-ab01-415a-83f1-6e98ea8b22f3",
+            "Value": {
+                "id": "3fafe479-0927-4c7b-b572-d2f75ec3e5b9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_pumpkin5\/o_pumpkin5.yy",
+                "resourceType": "GMObject"
             }
         },
         {
