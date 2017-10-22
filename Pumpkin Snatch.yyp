@@ -1559,6 +1559,25 @@
             }
         },
         {
+            "Key": "caf8e88b-bf93-475e-b487-a42f53d2b3f9",
+            "Value": {
+                "id": "b24b5480-baaa-4af2-9eb1-aea6689dab68",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_keyboard\/s_keyboard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "1b3e1724-6641-44dd-ba11-2dbf42e97fad",
@@ -1765,25 +1784,6 @@
                 ],
                 "resourcePath": "fonts\/f_score\/f_score.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "e65c38f6-ab01-415a-83f1-6e98ea8b22f3",
-            "Value": {
-                "id": "3fafe479-0927-4c7b-b572-d2f75ec3e5b9",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/o_pumpkin5\/o_pumpkin5.yy",
-                "resourceType": "GMObject"
             }
         },
         {
