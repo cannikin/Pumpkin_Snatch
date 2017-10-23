@@ -7,4 +7,5 @@ if dropped_pumpkin != noone {
     instance_destroy();
   }
   dropped_pumpkin = noone;
+  audio_play_sound(sound_drop_pumpkin, 1, false);
 }

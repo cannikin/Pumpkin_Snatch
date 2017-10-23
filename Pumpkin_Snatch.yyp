@@ -590,6 +590,25 @@
             }
         },
         {
+            "Key": "50c329a7-6a5b-49d1-bacd-b23a15107ce3",
+            "Value": {
+                "id": "62dabfa4-0cdd-4683-a400-0e6cd542c228",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_player_change\/sound_player_change.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "52be1c1c-961f-4ad8-9326-7cbb7775711b",
             "Value": {
                 "id": "4abee689-6ab8-4b48-9891-497e4162347c",
@@ -1217,6 +1236,25 @@
             }
         },
         {
+            "Key": "a19fd210-eebe-400a-ba54-63d35dd8de81",
+            "Value": {
+                "id": "ba27a216-bc7d-4013-a7c9-a357a82a8a8f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_drop_pumpkin\/sound_drop_pumpkin.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a52f79e1-ff9e-4e54-beb2-cdc83ca15088",
             "Value": {
                 "id": "7cf56555-53fc-4b0e-b659-14185348915a",
@@ -1404,6 +1442,25 @@
                 ],
                 "resourcePath": "sprites\/s_female3_walk_right\/s_female3_walk_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bea0f3b2-53df-472b-bac1-63af26afa154",
+            "Value": {
+                "id": "49bff398-8059-4c20-8c5c-b1029fd9fe73",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_pumpkin_pick\/sound_pumpkin_pick.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1879,6 +1936,25 @@
                 ],
                 "resourcePath": "sprites\/s_female1_walk_left\/s_female1_walk_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd9946c8-770e-4200-8165-9276a6b7e7d3",
+            "Value": {
+                "id": "99cbbe15-9b74-4f96-ae17-c9b3db0a0ece",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_select\/sound_select.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -90,6 +90,7 @@ if in_room {
         pumpkin.being_carried = true;
         carrying = pumpkin;
         picking_up = true;
+        audio_play_sound(sound_pumpkin_pick, 1, false);
       }
     } else {
       // are we next to a basket?
