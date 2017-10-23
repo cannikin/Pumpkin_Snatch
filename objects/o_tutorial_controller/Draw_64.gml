@@ -19,7 +19,7 @@ draw_text_ext(80, 160, "MOVE WITH THE ARROW KEYS", 12, 100);
 // pumpkins
 draw_rectangle(145, y_box_top, 255, y_box_bottom, true);
 draw_text(200, y_box_top + 12, "PICKING");
-draw_text_ext(200, 112, "PICK PUMPKINS WITH SPACEBAR. WAIT TOO LONG AND THEY POP!", 12, 100);
+draw_text_ext(200, 112, "PICK PUMPKINS WITH SPACEBAR PICK THEM BEFORE THEY POP!", 12, 100);
 
 // basket
 draw_rectangle(265, y_box_top, 375, y_box_bottom, true);

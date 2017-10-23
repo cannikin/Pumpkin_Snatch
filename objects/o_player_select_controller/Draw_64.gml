@@ -18,12 +18,11 @@ for (var i=0; i<array_length_1d(players); i++) {
   if player_selected_index == i {
     draw_set_colour(c_white);
     draw_rectangle(player.x - 54, player.y-25, player.x + 54, player.y + 63, true);
+    draw_rectangle(player.x - 54.5, player.y-25.5, player.x + 54.5, player.y + 63.5, true);
+    draw_rectangle(player.x - 55, player.y-26, player.x + 55, player.y + 64, true);
     draw_rectangle(player.x - 56, player.y-27, player.x + 56, player.y + 65, true);
+    draw_rectangle(player.x - 55.5, player.y-26.5, player.x + 55.5, player.y + 64.5, true);
   }
-  
-  // outline
-  draw_set_colour(c_white);
-  draw_rectangle(player.x - 55, player.y-26, player.x + 55, player.y + 64, true);
   
   // name
   draw_set_halign(fa_center);
@@ -47,8 +46,5 @@ for (var i=0; i<array_length_1d(players); i++) {
       draw_text(player.x + (10 * k), new_y, "*");
     }
   }
-  
-  // rectangle
-  draw_set_colour(c_white);
-  draw_rectangle(player.x - 55, player.y-26, player.x + 55, player.y + 64, true);
+
 }
