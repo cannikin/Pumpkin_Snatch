@@ -210,25 +210,6 @@
             }
         },
         {
-            "Key": "19dbfc44-ac1f-455f-bd9c-5c4d75f24b45",
-            "Value": {
-                "id": "fd3aa41c-b1ab-42c4-b6ad-312c35565364",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/o_player_lives\/o_player_lives.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1c35c065-05e6-4540-b74e-59d5c832e02c",
             "Value": {
                 "id": "6e804504-5b91-4d9d-a3cf-dce31642d77c",
@@ -435,25 +416,6 @@
                 ],
                 "resourcePath": "views\/30594fff-2d48-43cb-99f6-ccc1c2687638.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "35c42f8f-b24e-4ff1-baa1-2c633d4c081a",
-            "Value": {
-                "id": "56bc6a42-ddf0-4a65-8b95-f23a0a6df444",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/s_female_head\/s_female_head.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1765,6 +1727,25 @@
                 ],
                 "resourcePath": "rooms\/r_level2\/r_level2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e0fb5a50-1b0d-41f4-8d6d-2aac61c7806b",
+            "Value": {
+                "id": "97ae1cba-ea43-4086-b9cb-07cbbed0be93",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/e0fb5a50-1b0d-41f4-8d6d-2aac61c7806b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
