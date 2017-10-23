@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "3d4bfa8f-6ee8-45f9-babe-5af81d7a8ef9",
+            "Value": {
+                "id": "4bbee1fd-6a81-4d59-9a5d-564b0e5c6953",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_pumpkin_pop\/sound_pumpkin_pop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3e635eec-a517-4645-bfe2-41890f826db5",
             "Value": {
                 "id": "8dbe3357-eb4e-4e94-91c4-cf19ba34cf15",
@@ -590,6 +609,25 @@
             }
         },
         {
+            "Key": "4fc1333c-797e-4ddf-9240-1b8229ffdcbd",
+            "Value": {
+                "id": "d62eab78-87db-4e97-85a6-89434cba8a5e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_high_score_display\/r_high_score_display.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "50c329a7-6a5b-49d1-bacd-b23a15107ce3",
             "Value": {
                 "id": "62dabfa4-0cdd-4683-a400-0e6cd542c228",
@@ -700,6 +738,44 @@
                     "default"
                 ],
                 "resourcePath": "rooms\/r_level3\/r_level3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "59e18638-bb5b-4240-ae27-eaeaba313ace",
+            "Value": {
+                "id": "2ab6832e-1b15-4a40-aff1-8bcfbc88d8fc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_walk\/sound_walk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5a0a28cc-2108-4393-a232-1c2c72d7862b",
+            "Value": {
+                "id": "3e888586-f17e-45ce-86f9-10b6081a6d18",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_high_score_input\/r_high_score_input.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1822,6 +1898,25 @@
                 ],
                 "resourcePath": "views\/e0fb5a50-1b0d-41f4-8d6d-2aac61c7806b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1003a0b-1497-439b-9f98-948ced9916cf",
+            "Value": {
+                "id": "0bedc31b-5cb4-429b-af83-b1148d49ed03",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_game_over\/r_game_over.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -21,6 +21,9 @@ if in_room {
   // only bother messing with all this if a key was actually pressed
   if any_key_pressed {
 
+    var old_x_index = x_index;
+    var old_y_index = y_index;
+    
     // only allow x movement if player is not currenly moving y
     if !is_moving_y && !picking_up {
       x_index += key_right - key_left;
@@ -38,6 +41,9 @@ if in_room {
     next_x = move_index[0];
     next_y = move_index[1];
   
+    if (old_x_index != x_index || old_y_index != y_index) {
+      audio_play_sound(sound_walk, 1, false);
+    }
   }
   #endregion
 

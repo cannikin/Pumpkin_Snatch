@@ -37,6 +37,7 @@ if in_room {
     	} else {
         // pumpkin popped
         instance_create_layer(x, y, POPPED_LAYER, o_pumpkin_popped);
+        audio_play_sound(sound_pumpkin_pop, 1, false);
         instance_destroy();
       }
     }
