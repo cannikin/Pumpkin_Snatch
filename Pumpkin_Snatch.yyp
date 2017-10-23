@@ -799,6 +799,25 @@
             }
         },
         {
+            "Key": "66073f08-dee2-4382-9fcd-fb8b65f1ad00",
+            "Value": {
+                "id": "633ad851-2f4d-484e-b2e2-d5f812ccdfcb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_nes_palette\/s_nes_palette.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6800ff51-cde1-4f62-9263-9cf8bea48d0f",
             "Value": {
                 "id": "aa5216e1-b0f2-4458-b86d-d29f94565abd",
