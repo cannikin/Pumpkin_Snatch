@@ -851,7 +851,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_logo\/s_logo.yy",
+                "resourcePath": "sprites\/s_splashscreen\/s_splashscreen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1441,6 +1441,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_female3_walk_right\/s_female3_walk_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c150a9b2-b395-4dd1-a257-67aac29d0faa",
+            "Value": {
+                "id": "a328706e-d679-40ea-993b-392ae4fcd051",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_logo\/s_logo.yy",
                 "resourceType": "GMSprite"
             }
         },
