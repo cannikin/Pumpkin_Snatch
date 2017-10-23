@@ -14,7 +14,4 @@ if o_room_controller.x_index > 0 {
 }
 
 o_room_controller.move_grid[o_room_controller.y_index, o_room_controller.x_index] = [instance.x, instance.y, instance.id];
-show_debug_message("move_grid[" + string(o_room_controller.y_index) + "][" + string(o_room_controller.x_index) + "] = [" + string(instance.x) + "," + string(instance.y) + "," + string(instance.id) + "]");
-
 o_room_controller.x_index++;
-
