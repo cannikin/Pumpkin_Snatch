@@ -1179,6 +1179,25 @@
             }
         },
         {
+            "Key": "86b219c5-1790-45b7-a598-45188fe590cf",
+            "Value": {
+                "id": "7c5571ce-5fa0-43b6-8e9c-ff2e53291f85",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_high_score_controller\/o_high_score_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a8d546e-9041-458f-941c-6a6f24cbaf96",
             "Value": {
                 "id": "328b682e-19b6-48bc-922a-d2f14a7caff2",
