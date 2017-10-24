@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "2dff241c-d719-4604-8611-34862197d575",
+            "Value": {
+                "id": "73edc4fa-05c5-458e-9e11-35877e8a9f60",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/ab8f7a9d-96b0-4ef4-bc21-18f269a1bc2b-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "30594fff-2d48-43cb-99f6-ccc1c2687638",
             "Value": {
                 "id": "f6fd3367-a57a-4d2b-b1a2-3ecdd16807b7",
@@ -929,6 +948,25 @@
                 ],
                 "resourcePath": "sprites\/s_splashscreen\/s_splashscreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69ba90e0-5626-4f78-9b46-01649f72a075",
+            "Value": {
+                "id": "2ee253f5-a3d6-4b9f-9aba-55cbdfd94d03",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_game_over_controller\/o_game_over_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
