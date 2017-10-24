@@ -2072,6 +2072,25 @@
             }
         },
         {
+            "Key": "fcf2b7ab-c3b0-47a0-b24e-296bb8382498",
+            "Value": {
+                "id": "4dd33dec-6a6a-4b95-ac98-c16c91681bd2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_splash_controller\/o_splash_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fd9946c8-770e-4200-8165-9276a6b7e7d3",
             "Value": {
                 "id": "99cbbe15-9b74-4f96-ae17-c9b3db0a0ece",
