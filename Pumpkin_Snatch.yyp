@@ -1388,6 +1388,25 @@
             }
         },
         {
+            "Key": "9e1da9e1-71bd-4f53-8680-ae6a10e3a6a6",
+            "Value": {
+                "id": "cfea6050-9ce6-4cf5-acd0-ae802b945e54",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/music_player_select\/music_player_select.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9f32b7be-2a4a-4c05-b6b1-cddeb060d870",
             "Value": {
                 "id": "5fcb80ee-17d6-4554-a716-1188cb53fff6",
@@ -1499,6 +1518,25 @@
                 ],
                 "resourcePath": "sprites\/s_female3_walk_down\/s_female3_walk_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a7ac10bf-490d-45ab-af4d-7f7aeb39e340",
+            "Value": {
+                "id": "aada319f-9207-47fd-8665-34cd19e191c2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_game_over\/sound_game_over.yy",
+                "resourceType": "GMSound"
             }
         },
         {

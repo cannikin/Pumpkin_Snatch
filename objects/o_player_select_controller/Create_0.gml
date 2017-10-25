@@ -23,3 +23,6 @@ for (var i=0; i<array_length_1d(players); i++) {
   var normalized_pickup_speed = max(5 - floor(player.pickup_speed / 5), 1);
   player_properties[i] = [["MOVE", normalized_move_speed],["CARRY", normalized_carry_speed], ["PICK", normalized_pickup_speed]];
 }
+
+// will play until stopped
+audio_play_sound(music_player_select, 0, true);
