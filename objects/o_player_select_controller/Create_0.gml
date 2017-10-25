@@ -1,5 +1,8 @@
 /// @description Initialize
 
+score = 0;
+lives = 3;
+
 players = [
   [o_player_female1, "female1"], 
   [o_player_male1, "male1"], 

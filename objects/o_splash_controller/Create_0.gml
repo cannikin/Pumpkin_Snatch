@@ -1,8 +1,7 @@
 /// @description Initialize
 
-// setup global variables
-score = 0;
-lives = 3;
+display_set_gui_size(400, 240);
+window_set_size(800, 480);
 
 // setup high scores
 highscore_add("ROB", 100);

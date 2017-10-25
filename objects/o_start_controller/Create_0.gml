@@ -1,8 +1,5 @@
 /// @description Initialize
 
-display_set_gui_size(400, 240);
-window_set_size(800, 480);
-
 BLINK_RATE = room_speed * 1;
 
 // tracking how often to blink the start text
