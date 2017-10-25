@@ -30,3 +30,7 @@ global.power_up = false;
 // will play until stopped
 audio_stop_all();
 audio_play_sound(music_player_select, 0, true);
+
+next_room_go = false;
+next_room_wait = room_speed * 0.5;
+next_room_counter = 0;

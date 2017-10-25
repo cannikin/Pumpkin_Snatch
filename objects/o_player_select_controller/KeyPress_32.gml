@@ -11,6 +11,10 @@ var player = player_group[0];
 var player_prefix = player_group[1];
 global.player_prefix = player_prefix;
 
-audio_play_sound(sound_select, 1, false);
+if global.power_up {
+  audio_play_sound(sound_power_up, 1, false);
+} else {
+  audio_play_sound(sound_select, 1, false);
+}
 
-room_goto_next();
+next_room_go = true;

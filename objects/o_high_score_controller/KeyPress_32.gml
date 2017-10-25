@@ -1,3 +1,5 @@
 /// @description Start game
 
-room_goto(r_player_select);
+audio_play_sound(sound_select, 1, false);
+
+next_room_go = true;

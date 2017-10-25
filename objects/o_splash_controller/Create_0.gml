@@ -3,6 +3,8 @@
 display_set_gui_size(400, 240);
 window_set_size(800, 480);
 
+highscore_clear();
+
 // setup high scores
 highscore_add("ROB", 100);
 highscore_add("JAC", 90);

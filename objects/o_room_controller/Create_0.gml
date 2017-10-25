@@ -13,11 +13,11 @@ y_index = 0;
 move_grid[0,0] = [];
 
 // how fast a pumpkin grows
-pumpkin_growth_rate = 1;
+pumpkin_growth_rate = 5;
 pumpkin_growth_interval = room_speed * pumpkin_growth_rate;
 
 // seconds to wait before a pumpkin starts growing
-max_pumpkin_start_delay = 1;
+max_pumpkin_start_delay = 6;
 
 // total number of pumpkins on the stage
 pumpkin_count = 0;

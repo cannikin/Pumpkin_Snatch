@@ -2148,6 +2148,25 @@
             }
         },
         {
+            "Key": "e1342cc5-b517-447d-99f6-611c86d8ba00",
+            "Value": {
+                "id": "670729c6-cabf-46c1-97fc-4a0fa7ba8002",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_power_up\/sound_power_up.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e2eeba63-22db-4a01-aa22-8dc69091ea58",
             "Value": {
                 "id": "34c2d680-1736-418f-8ff3-2b20888473d6",
