@@ -25,3 +25,7 @@ max_buffer = 3;
 // total columns built
 total_columns = 8;
 total_rows = 5;
+
+// stop any music that might be playing
+audio_stop_all();
+audio_play_sound(music_highscore_input, 0, true);

@@ -1293,6 +1293,25 @@
             }
         },
         {
+            "Key": "91aca10a-3a99-4ca8-a8b3-53c7a7940e25",
+            "Value": {
+                "id": "11e107b7-d1c5-45e8-a81d-77ea5acdbdc5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/music_start\/music_start.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "925029ae-4631-4a88-8594-c86ba174636d",
             "Value": {
                 "id": "20df7fad-7a73-4959-aecb-52311510508e",
@@ -1651,6 +1670,25 @@
                 ],
                 "resourcePath": "sprites\/s_female2_walk_up\/s_female2_walk_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4e9871d-c9e6-45a3-8f46-43b6888cc39a",
+            "Value": {
+                "id": "43179643-7854-4a59-b01e-ed09804ecb72",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/music_highscore_input\/music_highscore_input.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2126,6 +2164,25 @@
                 ],
                 "resourcePath": "sprites\/s_score_background\/s_score_background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4d7c84b-de8e-4f28-9378-62a866e1ea77",
+            "Value": {
+                "id": "d3f4f54b-85d0-42d1-b785-00ba5b613d3a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/music_main\/music_main.yy",
+                "resourceType": "GMSound"
             }
         },
         {

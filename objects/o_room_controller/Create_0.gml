@@ -13,11 +13,11 @@ y_index = 0;
 move_grid[0,0] = [];
 
 // how fast a pumpkin grows
-pumpkin_growth_rate = 4;
+pumpkin_growth_rate = 1;
 pumpkin_growth_interval = room_speed * pumpkin_growth_rate;
 
 // seconds to wait before a pumpkin starts growing
-max_pumpkin_start_delay = 5;
+max_pumpkin_start_delay = 1;
 
 // total number of pumpkins on the stage
 pumpkin_count = 0;
@@ -27,3 +27,8 @@ next_room_counter = 0;
 
 // layer to put the player on
 player_layer = layer_get_id("popped_pumpkins");
+
+if !audio_is_playing(music_main) {
+  audio_stop_all();
+  audio_play_sound(music_main, 0, true);
+}

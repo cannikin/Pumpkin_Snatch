@@ -23,3 +23,5 @@ if chars[cursor_index] == "DEL" {
   buffer = string_delete(buffer, string_length(buffer), 1);
   buffer += chars[cursor_index];
 }
+
+audio_play_sound(sound_pumpkin_pick, 1, false);

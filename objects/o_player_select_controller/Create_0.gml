@@ -24,5 +24,9 @@ for (var i=0; i<array_length_1d(players); i++) {
   player_properties[i] = [["MOVE", normalized_move_speed],["CARRY", normalized_carry_speed], ["PICK", normalized_pickup_speed]];
 }
 
+// SECRETS
+global.power_up = false;
+
 // will play until stopped
+audio_stop_all();
 audio_play_sound(music_player_select, 0, true);
