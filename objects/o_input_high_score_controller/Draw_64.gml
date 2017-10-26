@@ -8,7 +8,7 @@ draw_text(room_width / 2, 10, "ENTER YOUR INITIALS");
 
 // draw buffer
 draw_set_font(f_initials);
-draw_set_color(c_yellow);
+draw_set_color(c_orange);
 draw_text(room_width / 2, 30, buffer);
 
 // draw characters

@@ -11,6 +11,13 @@ if chars[cursor_index] == "DEL" {
     }
   }
   highscore_add(buffer, score);
+  write_highscores();
+  
+  // save the score that was just added so we can highlight
+  global.highlight_score_name = buffer;
+  global.highlight_score_value = score;
+  
+  // show the scores
   room_goto(r_high_score_display);
 } else if string_length(buffer) < max_buffer {
   // add character
