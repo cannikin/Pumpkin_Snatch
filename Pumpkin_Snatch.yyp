@@ -457,6 +457,25 @@
             }
         },
         {
+            "Key": "2f211078-ca28-4eb4-a61b-8646e7f20137",
+            "Value": {
+                "id": "2f8ec9bf-7865-44e2-bfbd-925706a62b10",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/2f211078-ca28-4eb4-a61b-8646e7f20137.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "30594fff-2d48-43cb-99f6-ccc1c2687638",
             "Value": {
                 "id": "f6fd3367-a57a-4d2b-b1a2-3ecdd16807b7",
@@ -2202,6 +2221,25 @@
                 ],
                 "resourcePath": "sounds\/sound_power_up\/sound_power_up.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e2086982-e3c0-48bd-853b-0c7d276853c1",
+            "Value": {
+                "id": "c7ce65b1-c8d4-4612-9b42-9c2a096f85c3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/e2086982-e3c0-48bd-853b-0c7d276853c1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
