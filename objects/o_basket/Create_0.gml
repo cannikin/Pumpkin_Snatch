@@ -8,3 +8,5 @@ in_room = instance_exists(o_room_controller);
 if in_room {
   append_to_move_grid(self);
 }
+
+image_speed = 0

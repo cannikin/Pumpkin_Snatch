@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 1,
-    "bbox_right": 30,
+    "bbox_right": 31,
     "bbox_top": 1,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "65963dd9-f081-47e6-9e91-c42738377036",
+            "id": "7d6e917e-e893-45b7-b073-05fc811333f1",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "17671a75-4403-4c2c-803f-8cb1196badba",
             "compositeImage": {
-                "id": "29174640-bce9-44b9-9f84-4358a5b91e70",
+                "id": "caa023ed-a94f-4deb-b49e-68532617995d",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "65963dd9-f081-47e6-9e91-c42738377036",
+                "FrameId": "7d6e917e-e893-45b7-b073-05fc811333f1",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "984dfda5-f551-4ceb-b0a8-206aecfa2188",
+                    "id": "f68677a4-9d25-4a42-9af8-47305a5f0c34",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "65963dd9-f081-47e6-9e91-c42738377036",
-                    "LayerId": "2faac0b6-c795-4c01-9fef-0a1dd7537acc"
+                    "FrameId": "7d6e917e-e893-45b7-b073-05fc811333f1",
+                    "LayerId": "ca82c3dc-db84-4d83-8060-2c7146d56dd4"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 32,
     "layers": [
         {
-            "id": "2faac0b6-c795-4c01-9fef-0a1dd7537acc",
+            "id": "ca82c3dc-db84-4d83-8060-2c7146d56dd4",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "17671a75-4403-4c2c-803f-8cb1196badba",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 32,
     "xorig": 16,
-    "yorig": 16
+    "yorig": 8
 }
